@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: rgb(238, 213, 159);
+   font-family: "Montserrat", sans-serif;
+   font-style: normal;
+   margin: 10px;
+}
+.container {
+   font-family: "Montserrat", sans-serif;
+   font-style: normal;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.produkt{
+   display: flex;
+   flex-direction: column;  
+   width: 300px;
+   border: 2px solid black;
+   background-color: rgb(255, 185, 56);
+   padding: 5px;
+   
+}
+a {
+   margin: 10px 20px;
+}
+h1 {
+   text-align: center;
+   color: rgb(61, 40, 2);
+}
+h2,
+h3{
+  margin: 10px auto;
+  text-align: center;
+  color: brown;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   margin: 5px auto;
+   max-width: 500px;
+   background-color: black;
+   opacity: 0.5;
+   padding: 5px;
+}
+label {
+   color: beige;
+   margin-top: 5px;
+}
+input,
+textarea {
+   background-color: rgb(39, 38, 38);
+   color: beige;
+   padding: 5px 10px;
+}
+.odeslat,
+.hledat {
+   max-width: 150px;
+   margin: 10px auto;
+   padding: 5px 10px;
+   background-color: rgb(61, 40, 2);
+   border-radius: 5px;
+   font-weight: bold;
+}
+.odeslat:hover,
+.hledat:hover {
+   background-color: rgb(167, 110, 4);
+}
